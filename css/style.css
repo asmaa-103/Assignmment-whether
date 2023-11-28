@@ -1,0 +1,258 @@
+body
+{
+    background: #1e202b;
+    
+    /* font-family: "Roboto", "Open Sans", sans-serif; */
+}
+
+
+
+:root{
+    --main-color :rgb(0, 154, 216);
+    --second-color:  rgb(30, 32, 43);
+}
+
+
+
+.navbar{
+    background-color: var(--second-color);
+    padding: 25px;
+}
+
+
+.nav-link:hover{
+    color:rgb(0, 154, 216) !important;
+    border: 2px solid rgb(0, 154, 216);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.navbar-toggler-icon{
+color: white !important;
+
+}
+
+
+.nav-link{
+    padding: 3px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+  
+}
+
+.logo-type small{
+    font-size: 10px;
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.navbar-nav li a{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+.navbar-nav .nav-link.active{
+    padding: 2px 20px;
+    border: 2px solid #009ad8 ;
+    border-radius: 30px;
+    color: #009ad8;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    padding-top: 30px;
+}
+.logo-type h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* ///////////////////////////////////////////// */
+.find-location input{
+    background-color: var(--second-color);
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.find-location{
+    position: relative;
+}
+#search{
+    border: none;
+    padding: 20px 50px 20px 20px;
+}
+#search:focus{
+
+    outline: none;
+}
+#submit{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+
+
+
+.input-group input{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: rgb(118, 118, 118),
+}
+/* /////////////////////////////////////////////////////////// */
+
+
+.item-footer img{
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.app-container
+{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.item{
+    background-color: var(--second-color);
+    color: white;
+} 
+
+.fs-big
+{
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+
+#day{
+    background: #323544;
+    padding-bottom: 10px;
+}
+#after{
+    background: #323544;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+.site-footer{
+    background: #262936;
+    /* margin-top: 200px; */
+}
+.site-footer p{
+    color:  #bfc1c8;
+    font-size: 10px;
+    margin-top: 50px;
+
+}
+.subscribe-form input{
+    background-color: #1e202b;
+    border: none;
+    padding: 9px;
+    
+}
+.subscribe-form input:focus{
+    outline: none;
+}
+.subscribe-form{
+    position: relative;
+}
+.subscribe-form input[type="submit"]{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 1px;
+}
+::placeholder{
+    font-size: 16px;
+}
+
+.social-links a i{
+color: var(--main-color);
+padding-right: 10px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: #1e202b;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+padding-left: 10px;
+transition: 0.5s all;
+}
+.social-links a i:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+/* .next_condition_img{
+    width: 50px;
+} */
+.item{
+    padding-bottom: 60px;
+    background-color: #323544;
+}
+
+.rounded-4{
+    border-radius: 10px 0px 0 10px !important;
+}
+.ttt{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #bfc1c8;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#after{
+    border-radius: 10px 0px 10 0px !important ;
+}
+.tomorrrow{
+    background-color: #1e202b;
+}
+.mmm{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #bfc1c8;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.today_location{
+    font-size: 70px !important;
+}
+.ner{
+    color: #bfc1c8;
+    font-size: 14px;
+}
+#today_location{
+    font-size: 18px;
+    color: #bfc1c8;
+}
